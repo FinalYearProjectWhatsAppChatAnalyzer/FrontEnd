@@ -1,13 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
+    /* color: white; */
 }
 
-.main{
+#main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Images/img1.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('Images/img1.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+#main .image-overlay{
+    width: 100%;
+    background-color: rgba(5, 5, 5, 0.3);
+    object-fit: cover;
+    
+}
+
+.wrap-sections{
+    padding: 2% 9%;
+}
+
+
+#nav-section .logo-name{
+    color: #ffd92e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+#nav-section li a{
+    color: white;
+    
+}
+
+.nav-item {
+    margin: 20px;
+    font-size: 20px;
+}
+#nav-section li .active{
+    color: #ffd92e;
+}
+#nav-section li a:hover{
+    
+    color: #ffd92e;
+    cursor: pointer;
+}
+
+#introduction{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2%;
+}
+
+#introduction .content h1,p{
+    text-align: left;
+}
+
+#introduction .content h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 1.2;
+}
+
+.content span{
+    color: #ffd92e;
+    font-weight: 800;
+}
+
+
+#introduction .content .sub-content{
+    margin-top: 3%;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+}
+
+.upload{
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.upload-btn{
+    border-radius: 10px;
+
+
+}
+
+.upload .upload-btn:hover{
+    background-color: rgb(255, 255, 255,0.3);
+    color: #ffd92e;
+}
+
+#footer .contact{
+    margin: 1% 9%;
+    background-color: rgb(255, 255, 255,0.2);
+    padding: 2.5% 0;
+}
+
+#footer .contact i{
+    color: #ffd92e;
+    padding-right: 50px;
+}
+
+#footer .contact i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+/* .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Images/programming-1873854.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.main .image-overlay{
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.3);
+    object-fit: cover;
     height: 100vh;
 }
 
@@ -163,5 +285,5 @@ ul li a:hover{
 .content span{
     color: #ffd92e;
     font-size: 65px
-}
+} */
 
